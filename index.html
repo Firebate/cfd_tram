@@ -1,315 +1,314 @@
-<style>
-*{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-body{
-    font-family: Helvetica;
-    -webkit-font-smoothing: antialiased;
-    background: rgba( 71, 147, 227, 1);
-}
-h2{
-    text-align: center;
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: white;
-    padding: 30px 0;
-}
+<html>
 
-/* Table Styles */
-
-.table-wrapper{
-    margin: 10px 70px 70px;
-    box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
-}
-
-.fl-table {
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: normal;
-    border: none;
-    border-collapse: collapse;
-    width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
-    background-color: white;
-}
-
-.fl-table td, .fl-table th {
-    text-align: center;
-    padding: 8px;
-}
-
-.fl-table td {
-    border-right: 1px solid #f8f8f8;
-    font-size: 12px;
-}
-
-.fl-table thead th {
-    color: #ffffff;
-    background: #4FC3A1;
-}
-
-
-.fl-table thead th:nth-child(odd) {
-    color: #ffffff;
-    background: #324960;
-}
-
-.fl-table tr:nth-child(even) {
-    background: #F8F8F8;
-}
-
-/* Responsive */
-
-@media (max-width: 767px) {
-    .fl-table {
-        display: block;
-        width: 100%;
-    }
-    .table-wrapper:before{
-        content: "Scroll horizontally >";
-        display: block;
-        text-align: right;
-        font-size: 11px;
-        color: white;
-        padding: 0 0 10px;
-    }
-    .fl-table thead, .fl-table tbody, .fl-table thead th {
-        display: block;
-    }
-    .fl-table thead th:last-child{
-        border-bottom: none;
-    }
-    .fl-table thead {
-        float: left;
-    }
-    .fl-table tbody {
-        width: auto;
-        position: relative;
-        overflow-x: auto;
-    }
-    .fl-table td, .fl-table th {
-        padding: 20px .625em .625em .625em;
-        height: 60px;
-        vertical-align: middle;
+    <style>
+    *{
         box-sizing: border-box;
-        overflow-x: hidden;
-        overflow-y: auto;
-        width: 120px;
-        font-size: 13px;
-        text-overflow: ellipsis;
+        font-size: 30px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
     }
-    .fl-table thead th {
-        text-align: left;
-        border-bottom: 1px solid #f7f7f9;
+    body{
+        font-family: Helvetica;
+        -webkit-font-smoothing: antialiased;
+        background: rgba( 71, 147, 227, 1);
     }
-    .fl-table tbody tr {
-        display: table-cell;
-    }
-    .fl-table tbody tr:nth-child(odd) {
-        background: none;
-    }
-    .fl-table tr:nth-child(even) {
-        background: transparent;
-    }
-    .fl-table tr td:nth-child(odd) {
-        background: #F8F8F8;
-        border-right: 1px solid #E6E4E4;
-    }
-    .fl-table tr td:nth-child(even) {
-        border-right: 1px solid #E6E4E4;
-    }
-    .fl-table tbody td {
-        display: block;
+    h2{
         text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: white;
     }
-} 
-</style>
-
-<h2>Clermont-Fd - Ligne A</h2>
-<div class="table-wrapper">
-    <table class="fl-table">
-        <thead>
-            <tr>
-                <th>Arret</th>
-                <th>Dir : La Pardieu Gare</th>
-                <th>Dir : Les Vergnes</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Les Vergnes</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496260">Link</a></td>
-                <td> - </td>
-            </tr>
-            <tr>
-                <td>Stage G. Montpied</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496485">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496486">Link</a></td>
-            </tr>
-            <tr>
-                <td>La Plaine</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496016">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496018">Link</a></td>
-            </tr>
-            <tr>
-                <td>Champratel</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495356">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496482">Link</a></td>
-            </tr>
-            <tr>
-                <td>Croix de Neyrat</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495505">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496440">Link</a></td>
-            </tr>
-            <tr>
-                <td>Hauts de Chanturgue</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495697">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495699">Link</a></td>
-            </tr>
-            <tr>
-                <td>Collège A. Camus</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495453">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495454">Link</a></td>
-            </tr>
-            <tr>
-                <td>Les Vignes</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496269">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496271">Link</a></td>
-            </tr>
-            <tr>
-                <td>Lycée A. Brugière</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495817">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495819">Link</a></td>
-            </tr>
-            <tr>
-                <td>Les Pistes</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496012">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496014">Link</a></td>
-            </tr>
-            <tr>
-                <td>Musée d'Art Roger Quilliot</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495921">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495924">Link</a></td>
-            </tr>
-            <tr>
-                <td>Montferrand La Fontaine</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495905">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495906">Link</a></td>
-            </tr>
-            <tr>
-                <td>Gravière</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495691">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495692">Link</a></td>
-            </tr>
-            <tr>
-                <td>Stade M. Michelin</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496210">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496212">Link</a></td>
-            </tr>
-            <tr>
-                <td>1er Mai</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496080">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496082">Link</a></td>
-            </tr>
-            <tr>
-                <td>Les Carmes</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495321">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495323">Link</a></td>
-            </tr>
-            <tr>
-                <td>Delille Montlosier</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495530">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495533">Link</a></td>
-            </tr>
-            <tr>
-                <td>Hôtel de Ville</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495709">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495710">Link</a></td>
-            </tr>
-            <tr>
-                <td>Gaillard</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495639">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495642">Link</a></td>
-            </tr>
-            <tr>
-                <td>Jaude</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495730">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495732">Link</a></td>
-            </tr>
-            <tr>
-                <td>Lagarlaye</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495762">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495763">Link</a></td>
-            </tr>
-            <tr>
-                <td>Maison de la Culture</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495836">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495838">Link</a></td>
-            </tr>
-            <tr>
-                <td>Universités</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496253">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496255">Link</a></td>
-            </tr>
-            <tr>
-                <td>St Jacques Dolet</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496192">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496193">Link</a></td>
-            </tr>
-            <tr>
-                <td>CHU G. Montpied</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495399">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495401">Link</a></td>
-            </tr>
-            <tr>
-                <td>St Jacques Loucheur</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496194">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496196">Link</a></td>
-            </tr>
-            <tr>
-                <td>Léon Blum</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495777">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495778">Link</a></td>
-            </tr>
-            <tr>
-                <td>La Chaux</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495369">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495370">Link</a></td>
-            </tr>
-            <tr>
-                <td>Cézeaux Pellez</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495338">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495339">Link</a></td>
-            </tr>
-            <tr>
-                <td>Campus</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495319">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495320">Link</a></td>
-            </tr>
-            <tr>
-                <td>Margeride</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495859">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495861">Link</a></td>
-            </tr>
-            <tr>
-                <td>Fontaine du Bac</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495608">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495610">Link</a></td>
-            </tr>
-            <tr>
-                <td>Lycée Lafayette</td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495821">Link</a></td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495823">Link</a></td>
-            </tr>
-            <tr>
-                <td>La Pardieu Gare</td>
-                <td> - </td>
-                <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495958">Link</a></td>
-            </tr>
-        <tbody>
-    </table>
-</div>
+    
+    /* Table Styles */
+    table.bodywrapcenter>tr>td {
+    width: 100%;
+    float: left;
+    }
+    
+    .table-wrapper{
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+    
+    .fl-table {
+        border-radius: 5px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+        background-color: white;
+    }
+    
+    .fl-table td, .fl-table th {
+        text-align: center;
+        padding: 8px;
+    }
+    
+    .fl-table td {
+        border-right: 1px solid #f8f8f8;
+    }
+    
+    .fl-table thead th {
+        color: #ffffff;
+        background: #4FC3A1;
+    }
+    
+    
+    .fl-table thead th:nth-child(odd) {
+        color: #ffffff;
+        background: #324960;
+    }
+    
+    .fl-table tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+    
+    /* Responsive */
+    
+    @media (max-width: 767px) {
+        .fl-table {
+            display: block;
+            width: 100%;
+        }
+        .table-wrapper:before{
+            content: "Scroll horizontally >";
+            display: block;
+            text-align: right;
+            color: white;
+        }
+        .fl-table thead, .fl-table tbody, .fl-table thead th {
+            display: block;
+        }
+        .fl-table thead th:last-child{
+            border-bottom: none;
+        }
+        .fl-table thead {
+            float: left;
+        }
+        .fl-table tbody {
+            width: auto;
+            position: relative;
+            overflow-x: auto;
+        }
+        .fl-table td, .fl-table th {
+            height: 60px;
+            vertical-align: middle;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            overflow-y: auto;
+            width: 100%;
+            text-overflow: ellipsis;
+        }
+        .fl-table thead th {
+            text-align: left;
+            border-bottom: 1px solid #f7f7f9;
+        }
+        .fl-table tbody tr {
+            display: table-cell;
+        }
+        .fl-table tbody tr:nth-child(odd) {
+            background: none;
+        }
+        .fl-table tr:nth-child(even) {
+            background: transparent;
+        }
+        .fl-table tr td:nth-child(odd) {
+            background: #F8F8F8;
+            border-right: 1px solid #E6E4E4;
+        }
+        .fl-table tr td:nth-child(even) {
+            border-right: 1px solid #E6E4E4;
+        }
+        .fl-table tbody td {
+            display: block;
+            text-align: center;
+        }
+    } 
+    </style>
+    
+    <h2>Clermont-Fd - Ligne A</h2>
+    <div class="table-wrapper">
+        <table class="fl-table">
+            <thead>
+                <tr>
+                    <th>Arret</th>
+                    <th>Dir : La Pardieu Gare</th>
+                    <th>Dir : Les Vergnes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Les Vergnes</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496260">Link</a></td>
+                    <td> - </td>
+                </tr>
+                <tr>
+                    <td>Stage G. Montpied</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496485">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496486">Link</a></td>
+                </tr>
+                <tr>
+                    <td>La Plaine</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496016">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496018">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Champratel</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495356">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496482">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Croix de Neyrat</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495505">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496440">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Hauts de Chanturgue</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495697">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495699">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Collège A. Camus</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495453">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495454">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Les Vignes</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496269">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496271">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Lycée A. Brugière</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495817">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495819">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Les Pistes</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496012">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496014">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Musée d'Art Roger Quilliot</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495921">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495924">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Montferrand La Fontaine</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495905">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495906">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Gravière</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495691">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495692">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Stade M. Michelin</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496210">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496212">Link</a></td>
+                </tr>
+                <tr>
+                    <td>1er Mai</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496080">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496082">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Les Carmes</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495321">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495323">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Delille Montlosier</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495530">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495533">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Hôtel de Ville</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495709">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495710">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Gaillard</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495639">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495642">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Jaude</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495730">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495732">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Lagarlaye</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495762">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495763">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Maison de la Culture</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495836">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495838">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Universités</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496253">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496255">Link</a></td>
+                </tr>
+                <tr>
+                    <td>St Jacques Dolet</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496192">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496193">Link</a></td>
+                </tr>
+                <tr>
+                    <td>CHU G. Montpied</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495399">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495401">Link</a></td>
+                </tr>
+                <tr>
+                    <td>St Jacques Loucheur</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496194">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015496196">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Léon Blum</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495777">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495778">Link</a></td>
+                </tr>
+                <tr>
+                    <td>La Chaux</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495369">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495370">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Cézeaux Pellez</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495338">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495339">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Campus</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495319">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495320">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Margeride</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495859">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495861">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Fontaine du Bac</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495608">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495610">Link</a></td>
+                </tr>
+                <tr>
+                    <td>Lycée Lafayette</td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495821">Link</a></td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495823">Link</a></td>
+                </tr>
+                <tr>
+                    <td>La Pardieu Gare</td>
+                    <td> - </td>
+                    <td><a href="http://qr.t2c.fr/qrcode?_stop_id=3377704015495958">Link</a></td>
+                </tr>
+            <tbody>
+        </table>
+    </div>
+</html>
